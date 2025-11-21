@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    margin: 0;
 }
 
 .home {
@@ -9,6 +10,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: brown;
+    height: 100vh;
+}
+
+.link  {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
 }
 
 nav {
@@ -30,6 +39,6 @@ nav ul {
     height: 50px;
 }
 
-.home, .cv1, .cv2 {
-    height: 1000px;
+.Mickey, .Lilly {
+    scroll-margin-top: 70px;
 }
