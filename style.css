@@ -20,8 +20,11 @@ body {
     font-size: 20px;
 }
 
-nav {
-    width: 100%;
+.navigation {
+    width: 100vw;
+	display: none;
+	position: sticky;
+	top: 0;
 }
 
 nav ul {
@@ -55,4 +58,5 @@ nav ul {
 a {
     color: brown;
     font-weight: bold;
+	height: 1000px;
 }
