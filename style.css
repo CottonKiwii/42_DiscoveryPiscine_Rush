@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1000px;
 }
 
 .link  {
@@ -24,6 +24,7 @@ body {
     width: 100vw;
 	display: none;
 	position: sticky;
+    z-index: 1000;
 	top: 0;
 }
 
