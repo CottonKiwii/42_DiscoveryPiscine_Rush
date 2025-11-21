@@ -21,6 +21,7 @@ body {
 }
 
 .navigation {
+    background-color: bisque;
     width: 100vw;
 	display: none;
 	position: sticky;
@@ -35,6 +36,10 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#break {
+	margin-right: 10px;
 }
 
 .icon {
@@ -59,5 +64,4 @@ nav ul {
 a {
     color: brown;
     font-weight: bold;
-	height: 1000px;
 }

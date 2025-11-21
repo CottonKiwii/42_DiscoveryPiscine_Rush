@@ -16,7 +16,7 @@ window.addEventListener("scroll", () => {
 });
 
 function updateNav() {
-    if (isVisible(mickey) || isVisible(lilly)) {
+    if (isVisible(mickey) || iisVisible(lilly)) {
         nav.style.display = "block";
     } else {
         nav.style.display = "none";
@@ -26,3 +26,4 @@ function updateNav() {
 window.addEventListener("scroll", updateNav);
 window.addEventListener("hashchange", updateNav);
 window.addEventListener("load", updateNav);
+
