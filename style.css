@@ -1,16 +1,16 @@
 body {
     background-color: bisque;
     margin: 0;
+    text-align: center;
+    color: brown;
 }
 
 .home {
     margin: auto;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: brown;
     height: 100vh;
 }
 
@@ -41,4 +41,9 @@ nav ul {
 
 .Mickey, .Lilly {
     scroll-margin-top: 70px;
+    font-size: 20px;
+}
+
+.foto {
+    width: 200px;
 }
