@@ -47,3 +47,12 @@ nav ul {
 .foto {
     width: 200px;
 }
+
+.profile, .skills, .contact {
+    height: 1000px;
+}
+
+a {
+    color: brown;
+    font-weight: bold;
+}
