@@ -37,6 +37,10 @@ nav ul {
     align-items: center;
 }
 
+#break {
+	margin-right: 10px;
+}
+
 .icon {
     padding: 5px 5px 5px 5px;
     width: 50px;
